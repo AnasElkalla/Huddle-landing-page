@@ -83,6 +83,16 @@ footer {
   }
 }
 
+.social a:hover {
+  border-color: var(--clr-primary-magenta-400);
+  color: var(--clr-primary-magenta-400);
+}
+button:hover {
+  background-color: var(--clr-primary-magenta-400);
+  box-shadow: 0px 15px 20px rgba(255, 105, 180, 0.4);
+  color: white;
+  transform: translateY(-2px);
+}
 @media (min-width: 768px) {
   body {
     background: url("./images/bg-desktop.svg") no-repeat center center / cover,
