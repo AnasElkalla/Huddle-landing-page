@@ -64,7 +64,11 @@ section {
 footer {
   margin-top: 3rem;
   text-align: center;
-
+.social{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+}
   .social a {
     color: white;
     border: 1px solid white;
@@ -136,6 +140,11 @@ button:hover {
   }
   footer {
     position: relative;
+    .social{
+  list-style:none;
+  display:flex;
+  justify-content:flex-end;
+}
   }
   footer .social {
     text-align: right;
@@ -153,9 +162,7 @@ button:hover {
   }
 }
 
-.social{
-  list-style:none;
-  display:flex;
-}
+
   
+
 
